@@ -1,0 +1,64 @@
+第一部分：核心学习资源（全部公开可得）
+不要被昂贵的教科书吓到，真正的宝藏都在网上。
+
+1. 数学基础（必须牢固）
+概率论 (Probability Theory):
+
+资源: MIT 18.650 Statistics for Applications (MIT OpenCourseWare) 或 Joe Blitzstein 的 Harvard Stat 110 课程（YouTube上有讲座视频和讲义）。
+
+重点: 不仅要会计算，更要理解：条件期望、矩生成函数、收敛模式、大数定律、中心极限定理。
+
+测度论 (Measure Theory) - 高阶但至关重要:
+
+资源: 这是理解概率“为什么”的钥匙。推荐 YouTube 上 Mathified 的 "Measure Theory for Dummies" 系列视频。直观易懂，直奔主题。
+
+目标: 理解 σ-代数、可测函数、积分（勒贝格积分）、Radon-Nikodym导数。不需要成为数学家，但要能看懂这些术语在金融上下文中的含义。
+
+2. 随机微积分 (Stochastic Calculus)
+入门直觉:
+
+资源: Steve Shreve 的公开课视频（在YouTube上搜索）。他是圣经级教科书的作者，他的讲座是无可争议的顶级资源。
+
+目标: 先建立对布朗运动、伊藤积分、伊藤引理的直观感受。
+
+核心学习:
+
+资源 1 (理论): MIT OpenCourseWare 的 18.S096 Topics in Mathematics with Applications in Finance。重点看伊藤微积分和Black-Scholes模型的章节。讲义和作业都是金矿。
+
+资源 2 (应用): Luis Seco（多伦多大学教授）的课程网页。他的课程笔记和问题集非常贴近Quant面试和实战的需求。
+
+圣经教科书（可在线找到PDF）:
+
+《Stochastic Calculus for Finance II》 by Steven Shreve. 这是行业标准。不要只是读，要做完每一道题。答案网上可以找到。
+
+3. 金融衍生品 (Financial Derivatives)
+产品知识:
+
+资源: Coursera上的“Financial Markets” by Robert Shiller 或 “Introduction to Financial Markets” by IFM。它们能帮你建立对各类基础产品（期权、期货、互换）的扎实理解。
+
+定价理论:
+
+资源: Martin Haugh 和 Garud Iyengar 的哥伦比亚大学课程（COMS 4732/9732b）。他们的讲稿（Lecture Notes）是免费的，且是连接理论和实践的绝佳桥梁，涵盖了从二叉树到Black-Scholes再到数值方法的一切。
+
+圣经教科书（可在线找到PDF）:
+
+《Options, Futures and Other Derivatives》 by John Hull. 这是行业百科全书。第1-7章，10-19章是必读核心。同样，要做题。
+
+4. 编程实践 (Programming Practice) - 学习的重中之重
+理论不通过代码实现，就等于没学。Python是绝对的标准。
+
+库 (Libraries):
+
+numpy, scipy, pandas, matplotlib 是基础。
+
+quantlib: 专业的量化金融库，学习用它来定价。
+
+项目创意:
+
+用二叉树和蒙特卡洛模拟为欧式、美式期权定价。
+
+实现Black-Scholes公式，并绘制 Greeks (Delta, Gamma, Vega, etc.) 的3D曲面图。
+
+从雅虎财经获取股票数据，计算历史波动率，并与隐含波动率进行比较。
+
+尝试校准简单的随机波动率模型（如Heston）。
