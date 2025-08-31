@@ -20,3 +20,4 @@ quant-finance-learning-path/
 └── interview/              # 面试准备目录
     ├── questions.md        # 常见面试题
     └── preparation.md      # 面试准备指南
+<img width="1116" height="511" alt="屏幕截图 2025-09-01 013345" src="https://github.com/user-attachments/assets/52ec6569-506d-4c7e-b58f-981ea7dba2a7" />
