@@ -3,7 +3,7 @@
 ## 阶段一：基石篇 - 概率、统计与线性代数 (约 2-3个月)
 
 | 主题 | 学习重点 | 资源推荐 | 编程实践项目 |
-|:-----|:---------|:---------|:---------|
+|:---|:---|:---|:---|
 | **概率论** | 条件期望，大数定律，中心极限定理，特征函数，常用分布 | 《Probability Theory: The Logic of Science》, Harvard STAT 110 视频 | 1. 用NumPy模拟不同分布的随机变量<br>2. 验证LLN和CLT |
 | **统计学** | 参数估计，假设检验，时间序列分析，平稳性检验 | 《Introduction to Statistical Learning》, MIT 18.650 课程 | 1. 获取股票数据计算收益率<br>2. 检验收益率序列的正态性<br>3. ADF检验平稳性 |
 | **线性代数** | 特征值/特征向量，矩阵分解，正定矩阵 | 《Linear Algebra and Its Applications》, Gilbert Strang MIT课程 | 1. 计算协方差矩阵并执行Cholesky分解<br>2. 对资产收益率进行PCA分析 |
