@@ -1,0 +1,31 @@
+# 量化金融核心知识体系：学习计划
+
+## 阶段一：基石篇 - 概率、统计与线性代数 (约 2-3个月)
+
+| 主题 | 学习重点 | 资源推荐 | 编程实践项目 |
+|:-----|:---------|:---------|:-------------|
+| **概率论** | 条件期望，大数定律，中心极限定理，特征函数，常用分布 | 《Probability Theory: The Logic of Science》, Harvard STAT 110 视频 | 1. 用NumPy模拟不同分布的随机变量<br>2. 验证LLN和CLT |
+| **统计学** | 参数估计，假设检验，时间序列分析，平稳性检验 | 《Introduction to Statistical Learning》, MIT 18.650 课程 | 1. 获取股票数据计算收益率<br>2. 检验收益率序列的正态性<br>3. ADF检验平稳性 |
+| **线性代数** | 特征值/特征向量，矩阵分解，正定矩阵 | 《Linear Algebra and Its Applications》, Gilbert Strang MIT课程 | 1. 计算协方差矩阵并执行Cholesky分解<br>2. 对资产收益率进行PCA分析 |
+
+## 阶段二：核心篇 - 时间序列与优化 (约 2-3个月)
+
+| 主题 | 学习重点 | 资源推荐 | 编程实践项目 |
+|:-----|:---------|:---------|:-------------|
+| **时间序列模型** | ARIMA, GARCH家族模型，波动率聚类 | 《Analysis of Financial Time Series》 by Ruey S. Tsay | 1. 用statsmodels拟合ARIMA模型<br>2. 拟合GARCH(1,1)模型预测波动率<br>3. 构建波动率调整策略 |
+| **优化方法** | 约束优化，二次规划，动态规划 | 《Numerical Optimization》 by Nocedal & Wright | 1. 实现马科维茨投资组合优化<br>2. 解决多期动态规划问题 |
+
+## 阶段三：进阶篇 - 随机过程与数值方法 (约 2-3个月)
+
+| 主题 | 学习重点 | 资源推荐 | 编程实践项目 |
+|:-----|:---------|:---------|:-------------|
+| **连续时间随机过程** | 布朗运动，伊藤引理，随机微分方程，风险中性定价 | 《Stochastic Calculus for Finance II》 by Steven Shreve | 1. 模拟几何布朗运动路径<br>2. 推导Black-Scholes PDE<br>3. 蒙特卡洛期权定价 |
+| **数值方法** | 蒙特卡洛模拟，有限差分法 | 《Monte Carlo Methods in Financial Engineering》 by Paul Glasserman | 1. 为路径依赖期权定价<br>2. 有限差分法求解PDE |
+
+## 资源汇总
+
+| 类型 | 推荐资源 |
+|:-----|:---------|
+| **核心教材** | Tsay (时间序列), Shreve (随机微积分), Glasserman (蒙特卡洛) |
+| **视频课程** | Harvard STAT 110, MIT线性代数, CMU Steven Shreve讲座 |
+| **编程工具** | Python, NumPy/Pandas, Scipy, Statsmodels, CVXPY, QuantLib |
