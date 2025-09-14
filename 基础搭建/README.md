@@ -4,3 +4,7 @@
 
 [量化金融的数学](URL "[Statistics 110: Probability](https://learning.edx.org/course/course-v1:MITx+15.455x+1T2025/home)")
 https://learning.edx.org/course/course-v1:MITx+15.455x+1T2025/home
+
+MIT 18.S096 Topics in Mathematics w Applications in Finance
+
+https://www.youtube.com/playlist?list=PLUl4u3cNGP63ctJIEC1UnZ0btsphnnoHR
